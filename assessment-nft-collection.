@@ -42,9 +42,11 @@ function getTotalSupply() {
 
 // call your functions below this line
 
-mintNFT("matcha nft", "matcha latte nfts", "green", "matchalatte.png");
-mintNFT("shawarma nft", "i love shawarma nfts", "beige", "warmasha.jpg");
-mintNFT("dog nft", "cute picture of dogs", "golden", "dogs.jpg");
+mintNFT("matcha", "matcha latte NFTs", "green", "matchalatte.png");
+mintNFT("shawarma", "i love shawarma NFTs", "beige", "warmasha.jpg");
+mintNFT("dog", "cute picture of dogs", "golden", "dogs.jpg");
+mintNFT("starry night", "starry night by Vincent van Gogh", "blue", "starry_night.png");
+mintNFT("rainbow monkey", "NFT of monkey with rainbow-colored hair", "rainbow", "rainbow_monkey.png");
 
 listNFTs();
 getTotalSupply();
